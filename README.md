@@ -1,26 +1,15 @@
-# Django local AI
+currently hosted locally at: https://bit.ly/llama-djang-nn
 
-Run a local AI from Django with [Llama.cpp](https://github.com/ggerganov/llama.cpp)
-
-## Install
+## Installation Steps
 
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/emencia/django-local-ai
-cd django-local-ai
+git clone https://github.com/NamrataNair/django-llama/
+
 make install
 ```
-
-In case of an error *Failed to build llama-cpp-python* try this and run again:
-
-```bash
-source .venv/bin/activate
-export SETUPTOOLS_USE_DISTUTILS=stdlib
-pip install --upgrade --force-reinstall setuptools
-```
-
-## Get a language model
+## Get a language model - mistral7b
 
 To make this work you need a Llama.cpp gguf quantitized language model. We
 will use Mistral 7B Instruct from [this repository](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF):
@@ -43,12 +32,4 @@ Run the http server:
 
 ```bash
 make run
-```
-
-Create a superuser:
-
-```bash
-make superuser
-```
-
 Open the frontend at `localhost:8000` and the admin at `localhost:8000/admin/`
