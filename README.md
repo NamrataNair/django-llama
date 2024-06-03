@@ -1,4 +1,10 @@
-currently hosted locally at: https://bit.ly/llama-djang-nn
+Currently hosted locally at:[https://bit.ly/llama-djang-nn] --> this can be accessed if connected on the Am**** intranet
+For public view, have written a wrapper code - which integrates Gradio as the primary interface and then processes the request to the django application which inturn called the LLM trained and processes the information/prompt. 
+Gradio link : [https://94f2514e43fa2b7e80.gradio.live/]
+
+Please note : 
+1. There will be an initial deplay in loading the webpage, this is normal in terms of production implementation using Gradio. This delay is only there during the 1st initialization, thereon after there would be no issues.
+2. If running the application on a CPU, it will take a lot of time to process the prompt. A single GPU card with 8GB RAM is good enough to load a quantized model and run the application, with support to even Quadro and GeForce RTX cards.  
 
 ## Installation Steps
 
