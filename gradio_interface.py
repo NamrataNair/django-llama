@@ -6,4 +6,4 @@ def greet(name):
 iface = gr.Interface(fn=greet, inputs="text", outputs="text")
 
 if __name__ == "__main__":
-    iface.launch()
+    iface.launch(share=True)
