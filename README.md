@@ -2,7 +2,7 @@ Currently hosted locally at:[https://bit.ly/llama-djang-nn]  .  this can be acce
 
 For public view, have written a wrapper code - which integrates Gradio as the primary interface and then processes the request to the django application which inturn called the LLM trained and processes the information/prompt.   
 
-Gradio link : [https://94f2514e43fa2b7e80.gradio.live/]  
+Gradio link : [https://a9d0e2f7c4c22946d9.gradio.live]  
 
 
 Please note : 
