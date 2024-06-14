@@ -1,9 +1,6 @@
-Currently hosted locally at:[https://bit.ly/llama-djang-nn]  .  this can be accessed if connected on the Am**** intranet.  
+Currently hosted locally at:[https://bit.ly/llama-djang-nn] 
 
-For public view, have written a wrapper code - which integrates Gradio as the primary interface and then processes the request to the django application which inturn called the LLM trained and processes the information/prompt.   
-
-Gradio link : [https://a9d0e2f7c4c22946d9.gradio.live]  
-
+For public view, have written a wrapper code - which integrates Gradio as the primary interface and then processes the request to the django application which inturn called the LLM trained and processes the information/prompt. Gradio creates a temporary link active for 72hrs   
 
 Please note : 
 1. There will be an initial deplay in loading the webpage, this is normal in terms of production implementation using Gradio. This delay is only there during the 1st initialization, thereon after there would be no issues.
